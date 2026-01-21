@@ -197,7 +197,7 @@ nav {
     height: 500px;
     object-fit: cover;
     border-radius: 0 0 20px 20px; /* Slight rounding at bottom */
-    filter: grayscale(100%); /* B&W photo effect */
+    filter: grayscale(20%); /* B&W photo effect */
     transition: var(--transition);
 }
 
@@ -211,7 +211,7 @@ nav {
     width: 120px;
     height: 120px;
     background: transparent;
-    border: 1px dashed rgba(255,255,255,0.3);
+    border: 1px dashed rgba(155, 13, 226, 0.3);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -220,7 +220,7 @@ nav {
     backdrop-filter: blur(5px);
 }
 
-.floating-badge svg { fill: white; letter-spacing: 2px; }
+.floating-badge svg { fill: rgb(42, 136, 236); letter-spacing: 2px; }
 .center-star { position: absolute; font-size: 1.2rem; color: white; }
 
 /* Background Shapes */
