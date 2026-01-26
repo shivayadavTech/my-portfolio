@@ -17,6 +17,9 @@
     <!-- Link to CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Responsive image preload -->
+    <link rel="preload" as="image" href="assete/profile.png">
+
 </head>
 <body>
 
@@ -89,7 +92,10 @@
             <div class="hero-image-wrapper">
                 <!-- Placeholder image used. Replace 'profile.jpg' with your client's image -->
                 <div class="image-backdrop"></div>
-                <img src="assete/profile_image.png" alt="Shivam - developer" class="hero-img">
+                <picture> 
+                    <source srcset="assete/profile.webp" type="image/webp">   
+                    <img src="assete/profile.png" alt="Shivam - developer" class="hero-img">
+                </picture>
                 
                 <!-- Floating Badge -->
                 <div class="floating-badge">
